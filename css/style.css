@@ -1,0 +1,464 @@
+@charset 'UTF-8';
+
+/* BASE */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+	/* ゴシック体ベース */
+	font-family: Noto Sans JP, Poppins, ヒラギノ角ゴシック, 游ゴシック, 筑紫ゴシック, Roboto, Quicksand, Montserrat, Oswald ;
+	/* 明朝体ベース */
+	/* font-family: Noto Serif JP , ヒラギノ明朝 ProN, 游明朝, 筑紫明朝, Roboto, Quicksand, Montserrat, Oswald ; */
+	color:#272343;
+}
+
+body{
+	line-height: 1.4;
+}
+
+a{
+	text-decoration: none;
+	transition: 0.4s;
+	color:#272343 ;
+}
+
+a:hover{
+	opacity:0.7 ;
+}
+
+.br-sp {
+	display: none;
+}
+
+/* ORIGINAL */
+
+.wrapper{
+	width: 100%;
+}
+
+.container{
+	width: 77vw;
+	margin: 0 auto;
+}
+
+/* ヘッダー */
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	top: 2vw;
+	left: 0;
+}
+
+.header-inner{
+	width: 100%;
+	padding: 1vw 0;
+	background-color: #fffffe;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 5px 5px 3px rgba(39,35,67,0.3);
+}
+
+.header-left{
+	width: 17vw;
+	padding-left: 1vw;
+}
+
+.header-left img{
+	width: 100%;
+}
+
+.header-right ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-right li{
+	margin-right: 1.7vw;
+}
+
+.header-right a{
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+
+
+/* メインビジュアル */
+.main-visual{
+	background-color: #FFD803;
+	height: 47vw;
+	width: 100%;
+}
+
+.main-img {
+    padding-top: 16vw;
+    width: 35vw;
+	position: relative
+}
+
+.main-img img{
+	width: 100%;
+}
+
+.main-catchcopy {
+    font-weight: bold;
+    font-size: 3vw;
+    color: #fffffe;
+    position: absolute;
+    top: 20vw;
+    left: 38vw;
+}
+
+.sub-catch{
+	font-size: 1.5vw;
+    color: #fffffe;
+    position: absolute;
+    left: 38vw;
+	top: 30vw;
+}
+
+/* 私たちについて */
+.about-us-top{
+	width: 100%;
+	background-color: #BAE8E8;
+	/* padding: 3vw 0 5vw 0; */
+}
+
+.about-us-top-inner{
+	width: 100%;
+	position: relative;
+}
+
+.bg-ttl {
+    opacity: 0.28;
+    font-family: Poppins;
+    font-weight: bold;
+    letter-spacing: 1vw;
+    font-size: 10vw;
+    transform: skewX(-15deg);
+	position: absolute;
+}
+
+.about-bg-ttl{
+    color: #fff;
+    left: 0;
+    top: 0vw;
+}
+
+.about-us-top-img{
+	width: 35vw;
+	padding-top: 7vw;
+	padding-bottom: 10vw;
+	margin-left: auto;
+	display: block;
+}
+
+.about-us-top-img img{
+	width: 100%;
+}
+
+.about-us-top-heading-wrapper{
+	width: 60vw;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 2.5vw 0;
+	position: absolute;
+	top: 19vw;
+	left: 0;
+}
+
+.heading{
+	font-size: 3vw;
+	font-weight: bold;
+}
+.about-us-top-heading-wrapper h2{
+	padding-left: 2.5vw;
+}
+
+.more-btn {
+    font-size: 1.5vw;
+    font-family: Poppins;
+    padding: 0.5vw 1.5vw 0.5vw 1vw;
+    border: 2px solid #272343;
+    display: block;
+    width: 13vw;
+    font-weight: bold;
+    background-color: #fff;
+	position: relative;
+}
+.about-more {
+    margin-top: 2vw;
+    margin-left: 7vw;
+}
+
+.more-btn::after {
+    content: "";
+    background-color: #272343;
+    height: 1px;
+    width: 7vw;
+    position: absolute;
+    top: 1.5vw;
+    right: -2vw;
+}
+
+/* サービス */
+.service-top{
+	width: 100%;
+}
+
+.servive-top-inner{
+	width: 100%;
+	position: relative;
+}
+
+.service-top-heading{
+	text-align: center;
+	padding-top:1.8vw;
+}
+
+.service-bg-ttl{
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.service-top-content{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.service-top-contents{
+	width: 23vw;
+	background-color: #FFD803;
+	margin-top: 3vw;
+	padding: 1.5vw 0;
+}
+
+.service-top-contents img{
+	display: block;
+	width: 10vw;
+	margin: 0 auto;
+}
+
+.service-top-contents p{
+	font-size: 1.5vw;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 1vw;
+}
+
+.web-promo{
+	background-color: #FFD803;
+	width: 100%;
+	padding: 1.5vw 25vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2vw;
+}
+
+.web-promo img{
+	width: 10vw;
+}
+
+.web-promo p{
+	font-size: 1.8vw;
+	font-weight: bold;
+}
+
+.service-more{
+	margin: 2vw auto 3vw;
+}
+
+/* 会社案内 */
+.company-top{
+	width: 100%;
+	background-color: #BAE8E8;
+}
+
+.company-top-inner{
+	width: 100%;
+	position: relative;
+	padding-bottom: 1vw;
+}
+
+.company-top-heading{
+	padding-top: 7vw;
+	padding-bottom: 2vw;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.company-bg-ttl{
+	top: 0;
+	right: -8vw;
+	color: #fff;
+	z-index: 0;
+}
+
+.company-table{
+	width: 100%;
+}
+
+.company-table table{
+	width: 100%;
+}
+
+.company-table table td{
+	padding: 1vw 2vw 1vw 3vw;
+	font-size: 1.5vw;
+	background-color: #fff;
+	border: 4px solid #BAE8E8;
+}
+
+.company-table table tr td:first-child{
+	width: 25vw;
+}
+.company-table table tr td:nth-child(2){
+	width: 50vw;
+}
+
+.company-more{
+	margin: 2vw auto 2vw;
+}
+
+/* 制作実績 */
+.works-top{
+	width: 100%;
+}
+
+.works-top-inner{
+	width: 100%;
+	position: relative;
+}
+
+.works-top-heading{
+	text-align: center;
+	padding-top: 5vw;
+}
+
+.works-bg-ttl{
+	top: 2.5vw;
+	left: 0;
+	opacity: 0.2;
+}
+
+.works-top-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.works-top-contents{
+	width: calc(90%/3);
+	margin-top: 8vw;
+	position: relative;
+}
+
+.works-top-contents img{
+	width: 90%;
+}
+
+.works-top-contents-desc{
+	position: absolute;
+	bottom:-2vw;
+	right: 0;
+	font-size: 1.2vw;
+	color: #fff;
+	padding: 2.5vw 6vw;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.works-more{
+	margin:4vw auto 4vw;
+}
+
+
+
+
+/* フッター */
+footer{
+	width: 100%;
+	background-color: #FFD803;
+}
+
+.footer-inner{
+	width: 100%;
+	padding-bottom: 2vw;
+}
+
+.footer-nav{
+	padding: 3vw 2.5vw;
+}
+
+.footer-nav ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-nav a{
+	font-size: 1vw;
+	display: inline-block;
+}
+
+.footer-nav li{
+	padding: 0 2vw;
+	border-left: 1px solid #272343;
+	text-align: center;
+	display: block;
+	width: calc(100%/6);
+}
+
+.footer-nav li:last-child{
+	border-right: 1px solid #272343;
+}
+
+.footer-bottom{
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+}
+
+.footer-logo{
+	width: 27vw;
+}
+
+.footer-logo img{
+	width: 100%;
+}
+
+.footer-desc{
+	padding-left: 2vw;
+}
+
+.footer-desc h4{
+	font-weight: bold;
+	font-size: 1.2vw;
+}
+.footer-desc h1{
+	font-weight: bold;
+	font-size:1.8vw;
+	padding-bottom: 0.2vw;
+}
+.footer-desc p{
+	font-weight: bold;
+	font-size:1vw;
+}
+
+.copyright{
+	width: 100%;
+}
+
+.copyright p{
+	font-size: 0.8vw;
+	text-align: center;
+	padding: 2vw 0;
+}
