@@ -462,3 +462,105 @@ footer{
 	text-align: center;
 	padding: 2vw 0;
 }
+
+
+/* 下層ページ共通 */
+.underlayer-heading-wrapper{
+	width: 100%;
+	background: url(../img/unlayer-bg-img.png) right center no-repeat;
+	background-size: contain;
+	height: 40vw;
+}
+
+.underlayer-heading {
+	font-size: 3vw;
+	color: #fffffe;
+	font-family: Poppins;
+	/* font-weight: bold; */
+	font-style: italic;
+	padding-top: 24vw;
+	padding-left: 9vw;
+	letter-spacing: 0.6vw;
+	display: inline-block;
+}
+
+.underlayer-subheading {
+	font-size: 1.5vw;
+	color: #fffffe;
+	display: inline-block;
+	padding-left: 2vw;
+	vertical-align: super;
+	letter-spacing: 0.5vw;
+}
+
+.underlayer-subheading::before {
+	content: "";
+	width: 1px;
+	height: 1.5vw;
+	background-color: #fffffe;
+	margin-right: 1.5vw;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* 制作実績 */
+.works-wrapper{
+	width: 100%;
+	/* height: 50vw; */
+	padding-bottom: 8vw;
+}
+
+.pager{
+	width: 30vw;
+	margin: 0 auto;
+}
+
+/* サービスページ */
+.about-us-content{
+	width: 100%;
+}
+
+.about-us-content-inner{
+	width: 72.7vw;
+	margin: 0 auto;
+}
+
+.about-us-contents{
+	width: 100%;
+	position: relative;
+}
+
+.about-us-contents-img{
+	width: 45vw;
+	position: relative;
+}
+
+.about-us-contents-img img{
+	width: 100%;
+}
+
+.about-us-contents-desc{
+	position: absolute;
+	top: 13vw;
+	right: 1vw;
+}
+
+.about-us-contents-desc h3 {
+	font-size: 1.9vw;
+	font-weight: bold;
+	padding-bottom: 2vw;
+	width: 38vw;
+}
+
+.about-us-contents-desc p {
+	font-size: 1.5vw;
+	width: 38vw;
+}
+
+.about-us-contents-img-right{
+	margin-left: auto;
+}
+
+.about-us-contents-desc-left{
+	left: 0;
+}
