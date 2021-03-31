@@ -871,3 +871,10 @@ footer{
 	width: 60%;
 	display: inline-block;
 }
+
+.to-works{
+	text-align: right;
+	font-size: 1.2vw;
+	padding-top: 1vw;
+	display: block;
+}
