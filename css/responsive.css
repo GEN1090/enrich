@@ -13,8 +13,6 @@
 		width: 90vw;
 	}
 
-
-	
 	.br-sp {
 		display: block;
 	}
@@ -283,6 +281,7 @@
 
 	.company-table table tr td:first-child {
     width: 100%;
+    background-color: #FFD803;
 	}
 
 	.company-table table tr td:nth-child(2) {
@@ -376,6 +375,115 @@
 	.drawer--right.drawer-open .drawer-hamburger {
     right: 1vw;
 	}
+
+    .underlayer-heading-wrapper {
+        width: 100%;
+        background: url(../img/unlayer-bg-img.png) right center no-repeat;
+        background-image: none;
+        background-color: #FFD803;
+        background-size: contain;
+        height: 40vw;
+    }
+
+    .underlayer-heading {
+        font-size: 3.5vw;
+        color: #fffffe;
+        font-family: Poppins;
+        /* font-weight: bold; */
+        font-style: italic;
+        padding-top: 20vw;
+        padding-left: 0;
+        text-align: center;
+        letter-spacing: 0.6vw;
+        display: block;
+    }
+
+    .underlayer-subheading::before{
+        display: none;
+    }
+
+    .underlayer-subheading {
+        font-size:6vw;
+        color: #fffffe;
+        display: block;
+        text-align: center;
+        padding-left: 0;
+        vertical-align: super;
+        letter-spacing: 0.5vw;
+        font-weight: 700;
+    }
+    
+    .service-sp-heading{
+        padding-top: 3vw;
+    }
+
+    .contact-forms {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 2vw;
+    }
+
+    .contact-forms label {
+        font-size: 4.5vw;
+    }
+
+    .contact-forms label::after {
+        content: "必須";
+        display: inline-block;
+        background-color: #FF3C3C;
+        color: #fff;
+        padding: 1vw;
+        font-weight: bold;
+        margin-left: 1.5vw;
+        margin-bottom: 0.4vw;
+        vertical-align: middle;
+        font-size: 3vw;
+    }
+
+    .contact-forms input, .contact-forms textarea {
+        width: 100%;
+        border: none;
+        background-color: rgba(255, 216, 3, 0.5);
+        border-radius: 5px;
+        height: 8vw;
+        font-size: 4.5vw;
+        margin-top: 1vw;
+    }
+
+    .submit {
+        background-color: rgba(255, 216, 3, 1);
+        padding: 1.8vw 0vw;
+        font-weight: bold;
+        text-align: center;
+        font-size: 4.5vw;
+        border: none;
+        border-radius: 5px;
+        width: 35vw;
+        display: block;
+        margin: 2vw auto 5vw;
+    }
+
+    .inquiry{
+        text-align: center;
+    }
+
+    .contact-form .contact-forms:nth-child(5) label {
+        text-align: center;
+        width: 55vw;
+        margin: 0 auto;
+    }
+
+    .contact-form .contact-forms:nth-child(5) textarea{
+        height: 30vw;
+    }
+
+
+
+
+
 
 	
 
