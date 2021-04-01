@@ -53,6 +53,10 @@ header{
 	left: 0;
 }
 
+.sp-header{
+	display: none;
+}
+
 .header-inner{
 	width: 100%;
 	padding: 1vw 0;
