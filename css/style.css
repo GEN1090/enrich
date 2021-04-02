@@ -257,7 +257,7 @@ header{
 	padding-top: 1vw;
 }
 
-.web-promo{
+.web-promo-top{
 	background-color: #FFD803;
 	width: 100%;
 	padding: 1.5vw 25vw;
@@ -267,11 +267,11 @@ header{
 	margin-top: 2vw;
 }
 
-.web-promo img{
+.web-promo-top img{
 	width: 10vw;
 }
 
-.web-promo p{
+.web-promo-top p{
 	font-size: 1.8vw;
 	font-weight: bold;
 }
