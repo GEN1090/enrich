@@ -259,7 +259,7 @@
 
 	.web-promo p {
     font-size: 3.5vw;
-    font-weight: bold;
+    font-weight: normal;
     padding-top: 1vw;
 	}
 
@@ -307,7 +307,7 @@
 	}
 
 	.works-top-contents {
-    width: 60vw;
+    width: 75vw;
     margin: 0 auto;
     margin-top: 8vw;
     position: relative;
@@ -614,6 +614,156 @@
         background: url(../img/service-sp-bg.png) no-repeat center center;
         background-size: cover;
     }
+
+    /* 会社案内 */
+    .company-heading{
+        font-size: 7vw;
+    }
+
+    .roots-words-contents-right {
+        margin-left: 0;
+        margin-top: 4vw;
+        margin-bottom: 2vw;
+        padding: 3vw 2vw;
+        text-align: center;
+        background: url(../img/main-img.png) center center no-repeat;
+        background-size: cover;
+        /* background-color: rgba(0, 0, 0, 0.7); */
+    }
+
+    .roots-words-contents {
+    font-size: 4vw;
+    font-weight: bold;
+    width: 100%;
+    color: #fffffe;
+    }
+
+    .roots-words-contents-left {
+        padding: 3vw 2vw 3vw 0;
+        text-align: center;
+        background: url(../img/roots-img.jpg) center center no-repeat;
+        background-size: cover;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+    }
+
+    .mission-heading-wrapper {
+        width: 100%;
+        /* margin: 0 auto; */
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+
+    .mission-heading {
+        font-size: 4vw;
+        color: #fffffe;
+        font-style: italic;
+        font-family: Poppins;
+        letter-spacing: 0.6vw;
+        display: block;
+        text-align: center;
+    }
+
+    .mission-subheading {
+        font-size: 5vw;
+        color: #fffffe;
+        display: block;
+        padding-left: 2vw;
+        vertical-align: super;
+        letter-spacing: 0.5vw;
+        text-align: center;
+    }
+
+    .mission-subheading::before{
+        display: none;
+    }
+
+    .mission-content {
+        font-size: 3.5vw;
+        background-color: #fffffe;
+        padding: 1vw;
+        display: block;
+        font-weight: bold;
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+
+    .message-inner {
+        width: 100%;
+        position: relative;
+        background: url(../img/message-geading-bg.png) center bottom no-repeat;
+        height: 43vw;
+        background-size: 48vw;
+    }
+
+    .message-heading-wrapper {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 0;
+        margin-right: 0;
+        padding-bottom: 27vw;
+    }
+
+    .message-heading {
+        font-size: 5vw;
+        text-align: center;
+        color: #fffffe;
+        font-style: italic;
+        font-family: Poppins;
+        letter-spacing: 0.6vw;
+        display: block;
+    }
+
+    .message-subheading::before{
+        display: none;
+    }
+
+    .message-subheading {
+        font-size: 3.5vw;
+        color: #fffffe;
+        display: block;
+        padding-left: 2vw;
+        vertical-align: super;
+        letter-spacing: 0.5vw;
+        text-align: center;
+    }
+
+    .message-content p {
+        font-size: 3.4vw;
+        line-height: 1.7;
+    }
+
+    .author {
+        text-align: right;
+        padding-top: 5vw;
+    }
+
+    .company {
+        margin-top: 158vw;
+        background-color: #BAE8E8;
+        padding-bottom: 5vw;
+    }
+
+    .message-content {
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+    padding: 3vw 5vw;
+    }
+
+    .roots-bg-ttl {
+        opacity: 0.3;
+        left: 9vw;
+        top: 46vw;
+    }
+
+
+
+
+
+
+
+
 
 
 
