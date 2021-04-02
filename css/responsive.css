@@ -480,6 +480,144 @@
         height: 30vw;
     }
 
+    /* 私たちについてページ */
+
+
+    .about-us-content-inner {
+        width: 80vw;
+        margin: 0 auto;
+        padding-bottom: 8vw;
+    }
+
+    .about-us-contents-img {
+        width: 80%;
+        margin: 3vw auto 0;
+        position: relative;
+    }
+
+    .about-us-contents-desc {
+        position: initial;
+        /* top: 13vw; */
+        /* right: 1vw; */
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .about-us-contents-desc h3 {
+        font-size: 3.5vw;
+        font-weight: bold;
+        padding-bottom: 2vw;
+        width: auto;
+        text-align: center;
+    }
+
+    .about-us-contents-desc p {
+        font-size: 3vw;
+        width: auto;
+        text-align: center;
+    }
+
+    /* サービスページ */
+    .service-heading:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        margin-top: 1.3vw;
+        width: 80vw;
+        height: 1px;
+        background-color: #000;
+    }
+
+    .service-heading-desc {
+        padding-top: 3.5vw;
+        padding-bottom: 8vw;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .service-contents {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 15vw;
+        margin-top: 2vw;
+        padding: 4vw 6vw;
+        color: #fff;
+        flex-direction: column;
+    }
+
+    .service-contents-desc {
+        width: 100%;
+    }
+
+    .service-contents-desc h4 {
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
+    .service-contents-desc h4::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin: 2vw auto;
+        background-color: #fff;
+    }
+
+    .service-contents-desc p {
+        font-size: 3.2vw;
+        padding-top: 2vw;
+        line-height: 1.8;
+    }
+
+    .to-works {
+        text-align: center;
+        font-size: 3.5vw;
+        padding-top: 1vw;
+        display: block;
+    }
+
+    .service-contents-img {
+        display: none;
+    }
+
+    .blue-bg {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .hp{
+        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background-size: cover;
+    }
+    .lp{
+        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background-size: cover;
+    }
+    .web-marketing{
+        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background-size: cover;
+    }
+    .sns-invest{
+        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background-size: cover;
+    }
+    .ad-invest{
+        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background-size: cover;
+    }
+    .ad-agent{
+        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background-size: cover;
+    }
+    .web-promo{
+        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background-size: cover;
+    }
+
+
+
+
 
 
 
