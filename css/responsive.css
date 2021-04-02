@@ -654,7 +654,7 @@
     }
 
     .mission-heading {
-        font-size: 4vw;
+        font-size: 5vw;
         color: #fffffe;
         font-style: italic;
         font-family: Poppins;
@@ -664,7 +664,7 @@
     }
 
     .mission-subheading {
-        font-size: 5vw;
+        font-size: 6vw;
         color: #fffffe;
         display: block;
         padding-left: 2vw;
@@ -690,8 +690,8 @@
     .message-inner {
         width: 100%;
         position: relative;
-        background: url(../img/message-geading-bg.png) center bottom no-repeat;
-        height: 43vw;
+        background: none;
+        height: auto;
         background-size: 48vw;
     }
 
@@ -700,7 +700,7 @@
         margin-left: 0;
         padding-top: 0;
         margin-right: 0;
-        padding-bottom: 27vw;
+        padding-bottom: 3vw;
     }
 
     .message-heading {
@@ -738,23 +738,32 @@
     }
 
     .company {
-        margin-top: 180vw;
         background-color: #BAE8E8;
         padding-bottom: 5vw;
+        margin-top: 0;
     }
 
     .message-content {
-    width: 100%;
-    position: absolute;
-    background-color: #fff;
-    box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
-    padding: 3vw 5vw;
+        width: 100%;
+        position: initial;
+        background-color: #fff;
+        box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+        padding: 3vw 5vw;
     }
 
     .roots-bg-ttl {
         opacity: 0.3;
         left: 9vw;
         top: 46vw;
+    }
+
+    .message {
+        background-color: rgba(39,35,67, 0.7);
+        width: 100%;
+        padding-top: 3vw;
+        padding-left: 0;
+        padding-bottom: 6vw;
+        margin-top: 6vw;
     }
 
 
