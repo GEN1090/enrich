@@ -94,8 +94,10 @@ header{
 
 
 /* メインビジュアル */
-.main-visual{
-	background-color: #FFD803;
+.main-visual {
+	/* background-color: #FFD803; */
+	background: url(../img/main-img.jpg) center -13vw no-repeat;
+	background-size: 100vw;
 	height: 47vw;
 	width: 100%;
 }
@@ -111,20 +113,24 @@ header{
 }
 
 .main-catchcopy {
-    font-weight: bold;
-    font-size: 3vw;
-    color: #fffffe;
-    position: absolute;
-    top: 20vw;
-    left: 38vw;
+	font-weight: bold;
+	font-size: 3vw;
+	color: #fffffe;
+	padding-top: 18vw;
+	/* position: absolute; */
+	/* top: 18vw; */
+	/* left: 10vw; */
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
-.sub-catch{
+.sub-catch {
 	font-size: 1.5vw;
-    color: #fffffe;
-    position: absolute;
-    left: 38vw;
-	top: 30vw;
+	color: #fffffe;
+	padding-top: 2vw;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+	/* position: absolute; */
+	/* left: 10vw; */
+	/* top: 30vw; */
 }
 
 /* 私たちについて */
