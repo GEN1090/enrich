@@ -37,6 +37,7 @@ a:hover{
 
 .wrapper{
 	width: 100%;
+	position: relative;
 }
 
 .container{
@@ -127,6 +128,7 @@ header{
 }
 
 /* 私たちについて */
+
 .about-us-top{
 	width: 100%;
 	background-color: #BAE8E8;
@@ -237,11 +239,40 @@ header{
 	flex-wrap: wrap;
 }
 
-.service-top-contents{
+.service-top-contents {
 	width: 23vw;
 	background-color: #FFD803;
 	margin-top: 3vw;
-	padding: 1.5vw 0;
+	padding: 0;
+	height: 13vw;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.service-top-contents01{
+	background: url(../img/service-contents-img01.jpg) center center no-repeat;
+	background-size: 25vw;
+}
+.service-top-contents02{
+	background: url(../img/service-contents-img02.jpg) center center no-repeat;
+	background-size: 25vw;
+}
+.service-top-contents03{
+	background: url(../img/service-contents-img03.jpg) center center no-repeat;
+	background-size: 25vw;
+}	
+.service-top-contents04{
+	background: url(../img/service-contents-img04.jpg) center center no-repeat;
+	background-size: 25vw;
+}
+.service-top-contents05{
+	background: url(../img/service-contents-img05.jpg) center center no-repeat;
+	background-size: 25vw;
+}
+.service-top-contents06{
+	background: url(../img/service-contents-img06.jpg) center center no-repeat;
+	background-size: 25vw;
 }
 
 .service-top-contents img{
@@ -250,21 +281,23 @@ header{
 	margin: 0 auto;
 }
 
-.service-top-contents p{
+.service-top-contents p {
 	font-size: 1.5vw;
 	text-align: center;
 	font-weight: bold;
-	padding-top: 1vw;
+	padding-top: 0;
 }
 
-.web-promo-top{
-	background-color: #FFD803;
+.web-promo-top {
+	/* background-color: #FFD803; */
 	width: 100%;
 	padding: 1.5vw 25vw;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	margin-top: 2vw;
+	height: 10vw;
+	background: url(../img/service-top-conents-img07.png) center center no-repeat;
 }
 
 .web-promo-top img{
@@ -507,6 +540,21 @@ footer{
 	vertical-align: middle;
 }
 
+.company-heading-wrapper{
+	background: url(../img/company-heading-bg.png) right center no-repeat;
+	background-size: 91vw;
+}
+
+.company-heading{
+	color: #272343;
+}
+.company-subheading{
+	color: #272343;
+}
+.company-subheading::before{
+	background-color: #272343;
+}
+
 /* 制作実績 */
 .works-wrapper{
 	width: 100%;
@@ -601,7 +649,7 @@ footer{
 .mission{
 	width: 100%;
 	margin-top: 5vw;
-	background: url(../img/mission-bg.jpg) center center no-repeat;
+	background: url(../img/mission.jpg) center center no-repeat;
 	background-size: cover;
 	padding-bottom: 3vw;
 }
@@ -615,7 +663,6 @@ footer{
 
 .mission-heading{
 	font-size: 3vw;
-	color: #fffffe;
 	font-style: italic;
 	font-family: Poppins;
 	letter-spacing: 0.6vw;
@@ -624,7 +671,6 @@ footer{
 
 .mission-subheading{
 	font-size: 1.5vw;
-	color: #fffffe;
 	display: inline-block;
 	padding-left: 2vw;
 	vertical-align: super;
@@ -635,7 +681,7 @@ footer{
 	content: "";
 	width: 1px;
 	height: 1.5vw;
-	background-color: #fffffe;
+	background-color: #272343;
 	margin-right: 1.5vw;
 	display: inline-block;
 	vertical-align: middle;
@@ -658,12 +704,12 @@ footer{
 	margin-top: 6vw;
 }
 
-.message-inner{
+.message-inner {
 	width: 100%;
 	position: relative;
-	background: url(../img/message-geading-bg.png) left bottom no-repeat;
+	background: url(../img/message-bg.png) 10vw bottom no-repeat;
 	height: 22vw;
-	background-size: 35vw;
+	background-size: 22vw;
 }
 
 .message-heading-wrapper {
@@ -727,6 +773,14 @@ footer{
 
 
 /* お問い合わせページ */
+
+.contact-bg {
+	position: absolute;
+	top: 10vw;
+	right: 6vw;
+	width: 37vw;
+	z-index: ;
+}
 
 .contact-form{
 	width: 100%;
@@ -865,14 +919,15 @@ footer{
 
 .service-contents-img{
 	width: 33vw;
-	background-color: #FFD803;
+	/* background-color: #FFD803; */
 	align-items: center;
 	text-align: center;
-	padding: 2vw 0;
+	/* padding: 2vw 0; */
+	object-fit: cover;
 }
 
 .service-contents-img img{
-	width: 60%;
+	width: 100%;
 	display: inline-block;
 }
 
@@ -882,3 +937,14 @@ footer{
 	padding-top: 1vw;
 	display: block;
 }
+
+.aboutus-heading-wrapper {
+	background: url(../img/aboutus-heading-bg.jpg) no-repeat right center;
+	background-size: 91vw;
+}
+
+.aboutus-heading,
+.aboutus-subheading{
+	color: #272343;
+}
+

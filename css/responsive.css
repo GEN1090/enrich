@@ -220,14 +220,13 @@
 	}
 
 	.service-top-contents {
-    width: 100%;
-    background-color: #FFD803;
-    margin: 0 auto;
-    margin-top: 3vw;
-    padding: 3vw 0;
-		/* display: flex;
-		justify-content: space-between; */
-	}
+        width: 80vw;
+        background-color: #FFD803;
+        margin: 0 auto;
+        margin-top: 3vw;
+        padding: 3vw 0;
+        height: 20vw;
+    }
 
 	.service-top-contents img {
     display: block;
@@ -236,22 +235,24 @@
 	}
 
 	.service-top-contents p {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     text-align: center;
     font-weight: bold;
     padding-top: 1vw;
 	}
 
-	.web-promo-top {
-    background-color: #FFD803;
-    width: 100%;
-    padding: 3vw 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 2vw;
-	}
+    .web-promo-top {
+        /* background-color: #FFD803; */
+        width: 80vw;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2vw auto 0;
+        height: 20vw;
+        background-size: 24vw;
+    }
 
 	.web-promo img {
     width: 20vw;
@@ -553,6 +554,7 @@
     .service-contents-desc h4 {
         font-size: 4.5vw;
         text-align: center;
+        color: #272343;
     }
 
     .service-contents-desc h4::after {
@@ -561,12 +563,13 @@
         width: 100%;
         height: 1px;
         margin: 2vw auto;
-        background-color: #fff;
+        background-color: #272343;
     }
 
     .service-contents-desc p {
         font-size: 3.2vw;
         padding-top: 2vw;
+        color: #272343;
         line-height: 1.8;
     }
 
@@ -587,32 +590,33 @@
     }
 
     .hp{
-        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background: url(../img/service-contents-img01.jpg) no-repeat center center;
         background-size: cover;
     }
     .lp{
-        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background: url(../img/service-contents-img02.jpg) no-repeat center center;
         background-size: cover;
     }
     .web-marketing{
-        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background: url(../img/service-contents-img03.jpg) no-repeat center center;
         background-size: cover;
     }
     .sns-invest{
-        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background: url(../img/service-contents-img04.jpg) no-repeat center center;
         background-size: cover;
     }
     .ad-invest{
-        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background: url(../img/service-contents-img05.jpg) no-repeat center center;
         background-size: cover;
     }
     .ad-agent{
-        background: url(../img/service-sp-bg.png) no-repeat center center;
+        background: url(../img/service-contents-img06.jpg) no-repeat center center;
         background-size: cover;
     }
     .web-promo{
-        background: url(../img/service-sp-bg.png) no-repeat center center;
-        background-size: cover;
+        background: url(../img/service-top-conents-img07.png) no-repeat center center;
+        background-size: 75vw;
+        color: #fff;
     }
 
     /* 会社案内 */
@@ -655,19 +659,19 @@
 
     .mission-heading {
         font-size: 5vw;
-        color: #fffffe;
         font-style: italic;
         font-family: Poppins;
         letter-spacing: 0.6vw;
         display: block;
         text-align: center;
+        font-weight: bold;
     }
 
     .mission-subheading {
         font-size: 6vw;
-        color: #fffffe;
         display: block;
         padding-left: 2vw;
+        font-weight: bold;
         vertical-align: super;
         letter-spacing: 0.5vw;
         text-align: center;
@@ -765,6 +769,69 @@
         padding-bottom: 6vw;
         margin-top: 6vw;
     }
+
+    .contact-bg {
+        position: absolute;
+        top: 17vw;
+        right: 2vw;
+        width: 30vw;
+        z-index: ;
+    }
+
+    .company-heading-wrapper{
+        background: url(../img/company-heading-bg.png) right center no-repeat;
+        background-size:100vw;
+    }
+    
+    .company-heading{
+        color: #272343;
+    }
+    .company-subheading{
+        color: #272343;
+    }
+
+    .aboutus-heading-wrapper {
+        background: url(../img/aboutus-heading-bg.jpg) no-repeat right center;
+        background-size: 100vw;
+    }
+    
+    .aboutus-heading,
+    .aboutus-subheading{
+        color: #272343;
+    }
+
+    .service-top-contents01 {
+        background: url(../img/service-contents-img01.jpg) center center no-repeat;
+        background-size: 84vw;
+    }
+    .service-top-contents02 {
+        background: url(../img/service-contents-img02.jpg) center center no-repeat;
+        background-size: 84vw;
+    }
+    .service-top-contents03 {
+        background: url(../img/service-contents-img03.jpg) center center no-repeat;
+        background-size: 84vw;
+    }
+    .service-top-contents04 {
+        background: url(../img/service-contents-img04.jpg) center center no-repeat;
+        background-size: 84vw;
+    }
+    .service-top-contents05 {
+        background: url(../img/service-contents-img05.jpg) center center no-repeat;
+        background-size: 84vw;
+    }
+    .service-top-contents06 {
+        background: url(../img/service-contents-img06.jpg) center center no-repeat;
+        background-size: 84vw;
+    }
+
+    .web-promo-top p {
+        font-size: 4.5vw;
+        font-weight: bold;
+    }
+
+    
+
 
 
 
