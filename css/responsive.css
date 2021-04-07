@@ -255,18 +255,7 @@
     padding-top: 1vw;
 	}
 
-    .web-promo-top {
-        /* background-color: #FFD803; */
-        width: 80vw;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 2vw auto 0;
-        height: 20vw;
-        background-size: 24vw;
-    }
+    
 
 	.web-promo img {
     width: 20vw;
@@ -607,44 +596,44 @@
     .hp{
         background: url(../img/service-contents-img01.jpg) no-repeat center center;
         background-size: cover;
-        background-color:rgba(255,255,255,0.4);
+        background-color:rgba(255,255,255,0.8);
         background-blend-mode:lighten;
     }
     .lp{
         background: url(../img/service-contents-img02.jpg) no-repeat center center;
         background-size: cover;
-        background-color:rgba(255,255,255,0.4);
+        background-color:rgba(255,255,255,0.8);
         background-blend-mode:lighten;
     }
     .web-marketing{
         background: url(../img/service-contents-img03.jpg) no-repeat center center;
         background-size: cover;
-        background-color:rgba(255,255,255,0.4);
+        background-color:rgba(255,255,255,0.8);
         background-blend-mode:lighten;
     }
     .sns-invest{
         background: url(../img/service-contents-img04.jpg) no-repeat center center;
         background-size: cover;
-        background-color:rgba(255,255,255,0.5);
+        background-color:rgba(255,255,255,0.8);
         background-blend-mode:lighten;
     }
     .ad-invest{
         background: url(../img/service-contents-img05.jpg) no-repeat center center;
         background-size: cover;
-        background-color:rgba(255,255,255,0.4);
+        background-color:rgba(255,255,255,0.8);
         background-blend-mode:lighten;
     }
     .ad-agent{
         background: url(../img/service-contents-img06.jpg) no-repeat center center;
         background-size: cover;
-        background-color:rgba(255,255,255,0.4);
+        background-color:rgba(255,255,255,0.8);
         background-blend-mode:lighten;
     }
     .web-promo{
-        background: url(../img/service-top-conents-img07.png) no-repeat center center;
+        background: url(../img/web-promo-bg.png) no-repeat center center;
         background-size: 75vw;
         color: #fff;
-        background-color:rgba(255,255,255,0.4);
+        background-color:rgba(255,255,255,0.8);
         background-blend-mode:lighten;
     }
 
@@ -697,13 +686,14 @@
     }
 
     .mission-subheading {
-        font-size: 6vw;
+        font-size: 3.2vw;
         display: block;
         padding-left: 2vw;
         font-weight: bold;
         vertical-align: super;
         letter-spacing: 0.5vw;
         text-align: center;
+        font-weight: normal;
     }
 
     .mission-subheading::before{
@@ -854,11 +844,9 @@
         background-size: 84vw;
     }
 
-    .web-promo-top p {
-        font-size: 4.5vw;
-        font-weight: bold;
-    }
+    
 
+    
     
 
 
